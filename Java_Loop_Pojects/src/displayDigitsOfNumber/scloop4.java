@@ -10,13 +10,16 @@ public class scloop4 {
 			System.out.print("Enter Number for digits : ");
 			
 			int input = sc.nextInt();
+			int count = 0;
 			
 			while (input > 0)
 			{
 				int r = input%10;
 				input = input/10;
-				System.out.println(r);
+				//System.out.print(r);
+				count++;
 			}
+			System.out.print(count);
 	}
 
 }
