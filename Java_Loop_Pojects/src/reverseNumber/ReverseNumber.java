@@ -10,7 +10,7 @@ public class ReverseNumber {
 		System.out.print("Enter number to reverse : ");
 		
 		int input = sc.nextInt();
-		
+		int copyinput = input;
 		int t = 0;
 		int rev = 0;
 		
@@ -21,7 +21,15 @@ public class ReverseNumber {
 			t = rev;
 			input = input/10;
 		}
-		System.out.println(rev);
+		//System.out.println(rev);
+		
+		if(copyinput == rev) 
+		{
+			System.out.print("Its a Palindrome"); 
+		}
+		else {
+			System.out.print("Sorry,Its not a Palindrome"); 
+		}
 	}
 
 }
