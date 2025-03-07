@@ -21,7 +21,7 @@ public class ReverseNumber {
 			t = rev;
 			input = input/10;
 		}
-		//System.out.println(rev);
+		System.out.println(rev);
 		
 		if(copyinput == rev) 
 		{
